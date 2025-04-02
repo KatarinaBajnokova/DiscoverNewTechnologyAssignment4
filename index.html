@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Golden Retriever Love</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Analytics (final version only) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXX'); // Replace with your GA ID
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>Meet the Golden Retriever!</h1>
+    <img src="https://images.unsplash.com/photo-1601758174501-9a46c2eeb3f9" alt="Golden Retriever" />
+    <p>Golden Retrievers are loving, loyal, and fun!</p>
+  </div>
+
+  <div id="cookie-banner" class="cookie-banner">
+    This website uses cookies. <a href="cookie-policy.html">Learn more</a>.
+    <button onclick="acceptCookies()">Got it!</button>
+  </div>
+
+  <script>
+    function acceptCookies() {
+      document.getElementById("cookie-banner").style.display = "none";
+    }
+  </script>
+</body>
+</html>
