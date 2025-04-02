@@ -1,25 +1,117 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #fffaf0;
-    color: #333;
-    text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Comic Sans MS', 'Arial Rounded MT Bold', sans-serif;
+    background-color: #fff8f0;
+    color: #4b3621;
     padding: 20px;
+    line-height: 1.6;
   }
   
-  .container img {
-    max-width: 100%;
-    height: auto;
+ 
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fffaf3;
+    border: 3px dashed #f4c542;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    margin-bottom: 40px;
+  }
+  
+ 
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #de8f4e;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 1.6rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #ff914d;
+  }
+  
+  
+  p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
+  
+ 
+  img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border: 3px solid #fdd588;
+  }
+  
+
+  .fun-facts {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .fun-facts li {
+    background-color: #fef4e8;
+    padding: 12px 18px;
+    margin-bottom: 10px;
     border-radius: 12px;
+    border-left: 5px solid #ffc857;
+    font-size: 1.05rem;
   }
   
+
+  .woof-quote {
+    font-style: italic;
+    background-color: #fff8dc;
+    padding: 12px;
+    border-left: 5px solid #f2c94c;
+    border-radius: 8px;
+  }
+  
+ 
+  .thank-you {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #d17c2d;
+  }
+  
+
   .cookie-banner {
     position: fixed;
     bottom: 0;
-    background-color: #f4e2d8;
-    padding: 10px;
     width: 100%;
+    background-color: #fce7c1;
     text-align: center;
-    font-size: 14px;
-    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+    padding: 15px;
+    font-size: 0.95rem;
+    border-top: 2px solid #f4c542;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
   }
   
+  .cookie-banner a {
+    color: #b46400;
+    text-decoration: underline;
+    margin: 0 6px;
+  }
+  
+  .cookie-banner button {
+    background-color: #f4c542;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    margin-left: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color
+  }  
